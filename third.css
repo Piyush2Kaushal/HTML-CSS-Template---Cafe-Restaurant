@@ -1,0 +1,208 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+h3 {
+    font-size: 2.2rem;
+    font-family: 'Agbalumo';
+    padding-left: 2%;
+    display: inline;
+}
+header {
+    height: 10vh;
+    background-color: rgb(242, 222, 225);
+}
+
+.nevigation_2 {
+
+    display: flex;
+    margin: -65px 0px 0px 0px; 
+    position: absolute;
+    right: 0%;
+    
+}
+.nevigation {
+    list-style: none;
+    margin: 14px;
+    margin-right: 50px;
+    padding: 8px;
+    font-size: 1.2rem;
+
+}
+a {
+    text-decoration: none;
+}
+i{
+    margin-right: 8px;
+}
+#sec1::before {
+    background: url('img/first.jpg') no-repeat center center/cover ;
+    content:"";
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+    opacity: 0.9;
+}
+.box1 {
+    margin-left: 4%;
+    padding-top: 8%;
+}
+.h_11 {
+    color: white; 
+    font-size: 1.5rem;
+    font-family:Arial, Helvetica, sans-serif;
+}
+.h_12 {
+    color: white;
+    font-family: 'Playfair+Display';
+    font-size: 4rem;
+    margin: 28px 700px 43px 0px;
+}
+.but {
+    width: 10rem;
+    font-size: 1rem;
+    padding: 1.2%;
+    margin: 2%;
+    border: 1px solid white;
+    background-color: transparent;
+    color: white;
+    cursor: pointer;
+}
+.but:hover{
+    background-color: rgb(128, 128, 128);
+}
+#sec2{
+    height: 12vh;
+    background-color: rgb(74, 74, 74);
+    margin-top: 230px; 
+    position: relative;
+}
+.ul_2 {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    flex-direction: column;
+    align-items: center;
+    color: white;
+    padding-top: 20px;
+
+    
+}
+.li_2{
+    font-size: 1.1rem;
+}
+summary{
+    display: flex;
+    position: absolute;
+    top: 20px;
+    right: 60%;
+    justify-content: center;
+    color: white;
+    font-size: 1.3rem;
+    border: 1px solid white;
+    border-radius: 5px;
+    box-shadow: 2px 2px 3px 1px wheat;
+}
+
+.h_13 {
+    display: flex;
+    justify-content: center;
+    font-size: 3rem;
+    margin-top: 3%;
+    font-family: 'Playfair+Display';
+    font-style: italic;
+}
+.div_p{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 6%;
+}
+.h_14 {
+    font-size: 3rem;
+    font-family: 'Playfair+Display';
+}
+.h_15 {
+    font-size: 2.5rem;
+    font-family: 'Agbalumo';
+}
+.h_16 {
+    font-size: 1.3rem;
+    display: flex;
+    justify-content: end;
+    margin-right: 25%;
+    margin-top: 1%;
+    color: rgb(112, 15, 15);
+}
+.div_2{
+    
+    display: flex;
+    justify-content: space-evenly;
+}
+img {
+    height: 50vh;
+    width: 80vh;
+    margin: 1%;
+    margin-top: 2%;
+    box-shadow: 2px 2px 3px 1px ;
+    transition-property: all;
+    transition-duration: 2s;
+}
+img:hover{
+    width: 90vh;
+    
+}
+h6 {
+    font-size: 3rem;
+    margin: 2%;
+    font-family: 'Playfair+Display';
+    font-style: italic ;
+    
+}
+pre{
+    font-family: 'Edu+TAS+Beginner';
+    font-size: 1rem;
+}
+.button3 {
+    margin-left: 40%;
+    margin-top: 5%;
+    padding: 1.1%;
+    background-color: gray;
+    box-shadow: 1px 1px 2px 1px gray;
+    font-size: 1rem;
+    margin-bottom: 5%;
+
+}
+.button3:hover {
+    background-color: white;
+    cursor: pointer;
+    
+}
+#sec4 {
+    width: 100%;
+    height: 10vh;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.h_17 {
+    color: white;
+    font-family: 'Edu+TAS+Beginner';
+    font-size: 1.5rem;
+    animation-name: priya;
+    position: relative;
+    animation-duration: 6s;
+    animation-iteration-count: infinite;
+}
+@keyframes priya {
+ from{
+    font-size: 0.8rem;
+    
+ }
+ to {
+    font-size: 2rem;
+ }
+}
